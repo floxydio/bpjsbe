@@ -1,5 +1,4 @@
-// const mysql = require("mysql")
-const { Sequelize } = require('sequelize');
+const mysql = require("mysql")
 
 
 let connection = mysql.createConnection({
