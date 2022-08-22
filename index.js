@@ -13,6 +13,7 @@ app.use(bodyParser.urlencoded({extended: false}))
 
 
 app.get("/", IndexController.indexHome)
+app.get("/test-sequelize", IndexController.testSequilze)
 
 
 app.listen(port, () => console.log(`Running at ${port}`))
